@@ -1,6 +1,6 @@
 # Problema das camisas e calças
 
-```
+
 Uma determinada confecção opera com dois produtos: calças e camisas. Como tratam-se de produtos semelhantes, possuem uma produtividade comparável e compartilham os mesmos recursos. A programação da produção é realizada por lotes de produto.
 
 O departamento de produção informa que são necessários 10 homens por hora para um lote de calças e 20 homens por hora para um lote de camisas. Sabe-se que não é necessária mão de obra especializada para a produção de calças, mas são necessários 10 homens por hora desse tipo de mão de obra para produzir um lote de camisas. O departamento de pessoal informa que a força máxima de trabalho disponível é de 30 homens por hora de operários especializados e de 50 homens por hora de não especializados.
@@ -12,7 +12,7 @@ São necessários dois tipos de matéria-prima para produzir calças e camisas. 
 O almoxarifado informa que, por imposições de espaço, só pode fornecer 120 quilos de A e 100 quilos de B no período considerado.
 
 Sabendo-se que o lucro pela venda é de 800 reais nos lotes de camisas e de 500 reais nos lotes de calças, formule o problema de maximizar o lucro da operação produtiva em pauta.
-```
+
 
 Primeiro vamos criar tabelas que ilustrem o problema que estamos lidando
 
@@ -50,4 +50,3 @@ E sujeito a:
 - restrições associadas as máquinas:
   - máquina 1: `20 * x1c + 10 * x1m <= 80`
   - máquina 2: `30 * x2c + 35 * x2m <= 130`
-
